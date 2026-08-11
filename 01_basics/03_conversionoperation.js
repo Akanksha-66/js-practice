@@ -40,7 +40,7 @@ let negValue = -value
 // console.log(2+2);
 // console.log(2-2);
 // console.log(2*2);
-// console.log(2**3);
+// console.log(2**3); //for power we use **
 // console.log(2/3);
 // console.log(2%3);
 
@@ -52,13 +52,15 @@ let str3 = str1 + str2
 
 // console.log("1" + 2);
 // console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2 + 2); //agar string first me h to sbhi ko string consider krenge
+// console.log(1 + 2 + "2");  //agar string last me h to bs last wala as a string consider hoga
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+
+// console.log(true); // it will give true
+// console.log(+true); //  give 1 as operation performed using +
+// console.log(+"");  //empty parenthesis gives us zero
 
 let num1, num2, num3
 
